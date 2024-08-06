@@ -1,0 +1,54 @@
+/** @format */
+.count-card-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.count-card-left-side {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.count-card-right-side {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.count-card-right-side-card {
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.count-card-left-side-card {
+  width: 200px;
+  min-width: 140px;
+  padding: 15px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+@media (max-width: 900px) {
+  .count-card-main {
+    display: block;
+  }
+  .count-card-left-side {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .count-card-right-side {
+    width: 100%;
+  }
+  .count-card-left-side-card {
+    width: 100%;
+  }
+}

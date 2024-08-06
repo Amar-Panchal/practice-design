@@ -1,0 +1,39 @@
+/** @format */
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation.MuiDrawer-paper {
+  overflow-y: visible !important;
+}
+
+.nav-bar-content {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100%; /* Ensure it takes the full width */
+}
+
+.nav-bar {
+  display: flex;
+  padding: 10px;
+  width: 100%; /* Ensure it takes the full width */
+}
+.Mui-selected {
+  background-color: transparent;
+  color: #7294ff;
+  border-left: 4px solid #7294ff;
+}
+
+@media (max-width: 600px) {
+  .nav-bar-content {
+    display: block !important;
+  }
+  .nav-bar-search-bar {
+    margin-bottom: 10px;
+  }
+  .nav-bar-content-right-side {
+    justify-content: end;
+  }
+  .drawer-btn-expand {
+    align-items: baseline;
+  }
+  .drawer-item {
+    padding-top: 2rem;
+  }
+}

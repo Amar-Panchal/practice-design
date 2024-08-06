@@ -1,0 +1,55 @@
+/** @format */
+.activity-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 10px;
+}
+
+.activity-left-side {
+  gap: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 59%;
+}
+
+.activity-right-side {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.activity-right-side-card {
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.activity-left-side-card {
+  width: 80%;
+}
+
+.activity-left-side .select-container {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .activity-main {
+    display: block;
+  }
+  .activity-left-side {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .activity-right-side {
+    width: 100%;
+  }
+  .activity-left-side-card {
+    width: 100%;
+  }
+}
